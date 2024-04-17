@@ -1,0 +1,116 @@
+div{
+height:200px;
+margin: 5px;
+border:1px solid black;
+}
+
+.bg-repeat-no-repeat{
+border: 1px solid black ;
+background-image:url(..//images/dot.jpg);
+background-repeat: no-repeat;
+}
+
+.bg-repeat-repeat-x{
+    border: 1px solid black ;
+    background-image:url(..//images/dot.jpg);
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-repeat-y{
+    border:1px solid black;
+    background-image:url(..//images/dot.jpg);
+    background-repeat: repeat-y;
+}
+
+.bg-repeat-repeat{
+    border:1px solid black;
+    background-image:url(../images/dot.jpg);
+    background-repeat: repeat;
+}
+
+.bg-size-cover{
+    border:1px solid black;
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bg-size-contain{
+    border:1px solid black;
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.bg-size-200-by-300{
+    border:ipx solid black;
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-size:200px 300px;
+}
+
+.bg-position-left-top{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+
+.bg-position-center-top{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+
+.bg-position-right-top{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:right top;
+}
+
+.bg-position-left-center{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+
+.bg-position-center-center{
+background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.bg-position-right-center{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+
+.bg-position-left-bottom{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+}
+
+.bg-position-center-bottom{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position: center bottom;
+}
+
+.bg-position-right-bottom{
+    background-image:url(../images/dot.jpg);
+    background-repeat:no-repeat;
+    background-position:right bottom;
+}
+
+.bg-attachment-scroll{
+    background-image:url(../images/dot.jpg);
+    background-attachment: scroll;
+}
+
+.bg-attachment-fixed{
+    background-image:url(../images/dot.jpg);
+    background-attachment: fixed;
+}
+
+.background{
+    background: violet url(../images/dot.jpg)repeat fixed center;
+}

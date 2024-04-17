@@ -1,0 +1,173 @@
+.h-150px{
+    height:150px;
+    margin:25px auto;
+}
+.bg-dark-red{
+    background-color:darkred;
+}
+.bg-green{
+    background-color: rgb(3,74,4);
+}
+
+.bg-green-50{
+    background-color: rgb(3,74,4);
+    opacity: .5 ; /*transparency @ 50% */
+}
+.bg-pink{
+    background-color: rgba(255,0,132,0.80);
+    /* pink @ 80% transparency*/
+}
+.bg-mint-green{
+    background-color: #0ed59c;
+}
+
+.m-5px{
+  margin:5px;/*5px  */
+}
+
+.m5px-10px{
+    margin:5px 10px;
+    /*5px top and bottom */
+}
+
+.m-5px-10px-15px{
+    margin: 5px 10px 15px;
+    /*5px to the top*/
+    /*10px to the left and right  */  
+    /*15px to the botom  */
+}
+
+.m-5px-10px-15px-20px{
+    margin:5px 10px 15px 20px;
+    /*5px -top  10px -right 15px -botton  20px -left */
+}
+
+.style-01{
+    height:100px;
+    background-color: gray;
+}
+
+.mt-10px{
+margin-top: 10px;
+}
+
+.mr-10px{
+    margin-right:10px;
+}
+
+.mb-10px{
+    margin-bottom:10px;
+}
+ 
+.ml-10px{
+    margin-left:10px;
+}
+
+.style-02{
+background-color: rgb(255, 208, 0);
+border:10px solid black;
+margin:10px;
+}
+
+.p-10px{
+    padding:10px 20px;
+}
+
+.p-10px-20px{
+    padding:10px 20px;
+    /*10px padding on top and bottom */
+    /*20px padding on left and right */
+}
+ 
+.p-10px-20px-30px{
+    padding:10px 20px 30px;    
+   /*10px padding on top*/
+   /*20px padding on left and right */
+   /*30px padding on bottom */
+}
+ 
+.p-10px-20px-30px-40px{
+    padding:10px 20px 30px 40px;
+    /*10px padding on top*/
+    /*20px padding on right */
+    /*30px padding on bottom */
+    /*40px padding on left*/
+}
+
+.pt-10px{
+    padding-top:10px;
+}
+
+.pr-10px{
+    padding-right:10px;
+}
+
+.pb-10px{
+    padding-bottom:10px;
+}
+
+.pl-10px{
+    padding-left:10px;
+}
+
+.style-03{
+    height:90px;
+    margin:25px;
+}
+
+.border-solid{
+    border:10px solid tomato; 
+}
+
+.border-dashed{
+    border:10px dashed darkred;
+}
+
+.border-dotted{
+    border:10px dotted darkorange;
+}
+
+.border-inset{
+    border:10px inset blue;
+}
+
+.border-outset{
+    border:10px outset green;
+}
+
+.border-double{
+    border:10px double black;
+}
+
+.border-groove{
+    border:10px groove goldenrod;
+}
+
+.border-ridge{
+    border:10px ridge navy;
+}
+.border-radius{
+    border:10px solid black  ;
+    border-radius:100px;
+}
+
+.overfloe-hidden{
+    overflow:hidden;
+}
+
+.overflow-scroll{
+    overflow:scroll;
+}
+
+.box-shadow{
+    box-shadow:-20px -30px 10px 5px darkred;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.align-center{
+    margin-left:auto;
+    margin-right:auto;
+}

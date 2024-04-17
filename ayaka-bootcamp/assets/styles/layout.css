@@ -1,0 +1,34 @@
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+.float-none{
+    float:none;
+}
+
+.clear-left{
+    clear:right;
+}
+
+.clear-both{
+    clear:both;
+}
+
+.clear-none{
+    clear:none;
+}
+
+.clear-right{
+    clear:right;
+}
+
+.position-static{
+    position:static; /*All elements has position set tostatic by default */ 
+    /* top,left,right.bottom and Zindex will noto work if position ise set to static*/
+    left:50px;
+    
+}

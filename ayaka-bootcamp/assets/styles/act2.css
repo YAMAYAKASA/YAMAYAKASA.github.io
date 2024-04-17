@@ -1,0 +1,43 @@
+.img{
+    max-width:400px;
+    max-height: 300px;
+}
+
+.content{
+    max-width: 780px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 0 ;
+    margin-bottom: 0px;
+    border: 1px solid;
+    padding:20px;
+}
+
+.card-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-list{
+    max-width: 400px;
+    margin-bottom: 0px;
+}
+
+.card-listimage{
+    max-width:400px;
+    margin-bottom: 0px;
+}
+
+.card-listbox{
+    box-shadow: 0 2px 8px gray;
+    max-width:400px;
+    height:100px
+   
+}
+
+.card-listtext{
+    line-height: 1;
+    padding:10px;
+}
+
+

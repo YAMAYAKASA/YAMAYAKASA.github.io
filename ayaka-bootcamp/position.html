@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="assets/styles/position.css">
+    <style>
+        div.a{
+            position: relative;
+            width:400px;
+            height:200px;
+            border:3px solid red;
+        }
+
+        div.top{
+            position:absolute;
+            top:0%;
+            border:3px solid blue
+        }
+
+        div.bottom{
+            position:absolute;
+            top:0%;
+            border:10px solid green
+        }
+
+        div.left{
+            position: abosolute
+            left: 20px;
+            top: 80px;
+            border:3px solid cyan;
+        }
+
+        div.right{
+            position:absolute;
+            right: 40px;
+            top:  80px
+            border:3px solid blue
+        }
+
+    </style>    
+</head>
+<body>
+    <h1>Position Properties</h1>
+
+    <div class="a">
+       <div class="top">
+          This is on top.
+       </div>
+       <div class="bottom">
+        This is on bottom.
+       </div>
+       <div class="left">
+        This is on left.
+       </div>
+       <div class="right">
+        This is on right.
+       </div>
+
+    </div>   
+</body>
+</html>

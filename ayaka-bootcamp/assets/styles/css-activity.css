@@ -1,0 +1,11 @@
+table{
+    border: none;
+}
+table th{
+    background:indianred
+}
+
+table tr:nth-child(odd) td {
+    background: lightsalmon;
+}
+
